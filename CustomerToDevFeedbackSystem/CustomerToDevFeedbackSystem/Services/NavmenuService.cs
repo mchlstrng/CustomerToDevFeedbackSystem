@@ -23,7 +23,7 @@ namespace CustomerToDevFeedbackSystem.Services
         public class NavMenuItem
         {
             public int Id { get; set; }
-            public string Title { get; set; }
+            public string Title { get; set; } = string.Empty;
             public string Url => $"/project/{Id}";
         }
     }
